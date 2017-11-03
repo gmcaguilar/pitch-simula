@@ -1,8 +1,8 @@
 ---?image=assets/bg2.jpg&size=100% auto
 
-### Simula
+### Simula  
   
-    
+
 *Gabrielle Aguilar & Jason Bacani*
 
 --- 
