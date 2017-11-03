@@ -17,4 +17,18 @@
 
 --- 
 
-### Simula Tutorial
+## Simula Tutorial
+
++++
+
+### Value Types
+- Integer
+- Short Integer
+- Real
+- Long Real
+- Boolean
+- Character
+
++++
+
+### Reference Types
