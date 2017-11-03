@@ -1,4 +1,4 @@
----?image=assets/bg1.png&size=100% auto
+---?image=assets/bg2.jpg&size=100% auto
 
 ### Simula
 
