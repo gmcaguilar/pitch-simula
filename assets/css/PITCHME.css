@@ -1,0 +1,73 @@
+@font-face {
+	font-family: PICO-8;
+	src: url(assets/PICO-8_mono_upper.ttf);
+}
+
+.reveal strong, .reveal b {
+	color:#FFA300; 
+}
+
+.reveal code {
+	font-family: PICO-8, monospace; 
+}
+/* PICO-8 Colors 
+/* source: https://www.romanzolotarev.com/pico-8-color-palette */
+
+/*
+
+#000000 - Black
+#1D2B53 - Dark-Blue
+#7E2553 - Dark-Purple
+#008751 - Dark-Green
+#AB5236 - Brown
+#5F574F - Dark-Grey
+#C2C3C7 - Light-Grey
+#FFF1E8 - White
+#FF004D - Red
+#FFA300 - Orange
+#FFEC27 - Yellow
+#00E436 - Green
+#29ADFF - Blue
+#83769C - Indigo
+#FF77A8 - Pink
+#FFCCAA - Peach
+
+*/
+
+.hljs {
+	background:#5F574F;
+	color:#C2C3C7;
+}
+
+/* Indigo */
+.hljs-comment {
+	color:#83769C;
+}
+
+/* White */
+.hljs-params {
+	color:#FFF1E8; 
+}
+
+/* Light-Grey */
+.hljs-title,
+.hjls-variable {
+	color:#C2C3C7;
+}
+
+/* Blue */
+.hljs-literal,
+.hljs-string,
+.hljs-number {
+	color:#29ADFF;
+}
+
+/* Pink */
+.hljs-keyword {
+	color:#FF77A8;
+}
+
+/* Green */
+.hljs-built_in {
+	color:#00E436;
+}
