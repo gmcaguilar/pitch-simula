@@ -29,13 +29,14 @@
 
 - Nygaard saw the potential with computer-aided simulations |
 
-- He wanted to standardize the procedures of describing a system using simulations. A programming language was a good tool for the job. | 
+- He wanted to standardize the procedures of simulating a system using a programming language. |
 
-- However, he needed someone with more programming skills than he had... | 
+- He needed someone with more programming skills than he had... | 
 
 +++
 
 ### What is Simula
+
 - Simulation programming language |
 - Simula I and Simula 67 |
 - Object-Oriented |
