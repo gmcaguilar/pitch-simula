@@ -56,17 +56,21 @@
 - January 1962: Dahl joined Nygaard in developing this computer language |
 - May 1962: SIMULA I was born, a simulation language |
 
++++
+
 ### SIMULA I
 
 - Simulation language |
 - Used to program simulations on a computer |
 - Not a general-purpose programming language |
 
-+++
++++?image=assets/dahl-nygaard2.jpg&size=100% auto
 
-### When was Simula developed?
+---?image=assets/bg2.jpg&size=100% auto
 
---- 
+## SIMULA 67
+
+---?image=assets/bg2.jpg&size=100% auto
 
 ## Simula Tutorial
 
