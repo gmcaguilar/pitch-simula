@@ -12,6 +12,8 @@
 
 +++ 
 
+### Kristen Nygaard
+
 - Norwegian computer scientist |
 - Born on August 27, 1926 Oslo, Norway |
 - University of Oslo (Master's in Mathematics) |
@@ -19,7 +21,21 @@
 
 +++
 
-### What is Simula?
+### Problem
+
+- 1950s: Describing how a system works was usually done using flow diagrams and a list of rules. |
+
+- 1957: Nygaard wanted a better way of doing this. |
+
+- Nygaard saw the potential with computer-aided simulations |
+
+- He wanted to standardize the procedures of describing a system using simulations. A programming language was a good tool for the job. | 
+
+- However, he needed someone with more programming skills than he had... | 
+
++++
+
+### What is Simula
 - Simulation programming language |
 - Simula I and Simula 67 |
 - Object-Oriented |
@@ -28,7 +44,7 @@
 
 ### When was Simula developed?
 
----
+--- 
 
 ## Simula Tutorial
 
