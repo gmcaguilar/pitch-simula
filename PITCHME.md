@@ -4,7 +4,7 @@
 
 *Gabrielle Aguilar & Jason Bacani*
 
----?image=assets/dahl-nygaard2.jpg&size=100% auto
+---?image=assets/bg2.jpg&size=100% auto
 
 ## SIMULA I
 
