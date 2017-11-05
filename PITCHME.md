@@ -106,11 +106,11 @@
 
 ### Simple Statements
 - Assignment
- - x := 1
+ - `x := 1;`
 - Reference Assignment
- - x :- New ClassName
+ - `x :- New ClassName;`
 - Comments
- - comment everything after reserved word is a comment;
+ - `comment everything after reserved word is a comment;`
 
 +++
 
@@ -135,11 +135,6 @@ if i < j
   else k := 2;
 ```
 @[1-2] @[4-6]
-
-+++
-
-### Structured/Compound Statements
-#### Switch
 
 +++
 
