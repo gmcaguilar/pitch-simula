@@ -98,7 +98,8 @@
 
 ### Reference Types
 - Object Reference
-  - Ref(Object Identifier)
+  - `ref(ClassName) x;`
+   - Equivalent to `ClassName x;` object declaration in Java
 - Text
  - "Simula"
 
@@ -106,20 +107,20 @@
 
 ### Simple Statements
 - Assignment
- - `x := 1;`
+  - `x := 1;`
 - Reference Assignment
- - `x :- New ClassName;`
+  - `x :- New ClassName;`
 - Comments
- - `comment everything after reserved word is a comment;`
+  - `! this is a comment`
 
 +++
 
 ### Structured/Compound Statements
 #### Blocks
 ```
-begin
-  comment some code;
-end;
+Begin
+  ! code
+End;
 ```
 
 +++
@@ -127,21 +128,29 @@ end;
 ### Structured/Compound Statements
 #### Conditional Statements
 ```
-if i < j
-  then k := 1;
-
-if i < j
-  then k := 1
-  else k := 2;
+If (condition) {and|or (condition)}
+  Then (statement)
+  [Else (statement)];
 ```
-@[1-2] @[4-6]
+#### Boolean Operators
+- For numeric and text values: =, <>, <=, >=, <, >
+- For references (objects and text): ==, =/= 
 
 +++
 
 ### Structured/Compound Statements
 #### Loops
 ```
-while ... do ... ;
+While ... Do ... ;
 
-for
+For
+```
+
++++
+
+### Procedures
+```
+Begin
+
+End;
 ```
