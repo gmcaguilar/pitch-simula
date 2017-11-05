@@ -1,10 +1,10 @@
----?image=assets/bg2.jpg&size=60% auto
+---?image=assets/bg2.jpg&size=100% auto
 
 ### Simula  
 
 *Gabrielle Aguilar & Jason Bacani*
 
----?image=assets/dahl-nygaard.jpg&size=100% auto
+---?image=assets/dahl-nygaard.jpg&size=60% auto
 
 ## SIMULA I
 
