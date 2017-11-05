@@ -9,14 +9,13 @@
 ### Kristen Nygaard
 
 ![nygaard](assets/nygaard.jpg)
-@[](testing)
-@[](testing2)
 
-+++
++++ 
 
-### Problem 
-
-
+- Norwegian computer scientist |
+- Born on August 27, 1926 Oslo, Norway |
+- University of Oslo (Master's in Mathematics) |
+- Acknowledged as the co-inventor of *Object-Oriented Programming* |
 
 +++
 
