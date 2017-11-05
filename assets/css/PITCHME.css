@@ -1,5 +1,7 @@
 .reveal .slides section h1,
-.reveal .slides section h2,
+.reveal .slides section h2 {
+	color:#f04e29;
+}
 .reveal .slides section h3 {
 	color: #bbfffc;
 }
