@@ -1,4 +1,4 @@
----?image=assets/bg2.jpg&size=100% auto
+---?image=assets/bg2.jpg&size=60% auto
 
 ### Simula  
 
@@ -31,7 +31,7 @@
 - 1957: Nygaard wanted a better way of doing this. |
 - Nygaard saw the potential with computer-aided simulations |
 - He wanted to standardize the procedures of simulating a system using a computer language. |
-- However, he needed someone more skilled in programming..
+- However, he needed someone more skilled in programming.. |
 
 +++
 
