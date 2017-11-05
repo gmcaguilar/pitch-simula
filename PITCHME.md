@@ -76,8 +76,6 @@
 
 - Dahl and Nygaard eventually realized that they had a powerful simulation language that would be an excellent platform for a general-purpose language.
 
->> The only salvation for the programming world is the really general purpose language. Even if it does not exist yet, it is clear that is the only thing we must strive for.. - Jan Garwick
-
 >> We can not just produce new special purpose languages the whole time, because they will not be widely implemented.  - Kristen Nygaard
 
 +++
