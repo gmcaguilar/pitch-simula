@@ -117,16 +117,36 @@
 ### Structured/Compound Statements
 #### Blocks
 ```
-Begin
+begin
   comment some code;
-End;
+end;
 ```
 
 +++
 
-### Conditional Statements
-If ... Then ... ; If ... Then ... Else ... ;
- - Switch
-- Loops
-  - While ... do ... ;
-  - For
+### Structured/Compound Statements
+#### Conditional Statements
+```
+if i < j
+  then k := 1;
+
+if i < j
+  then k := 1
+  else k := 2;
+```
+@[1-2]@[4-6]
+
++++
+
+### Structured/Compound Statements
+#### Switch
+
++++
+
+### Structured/Compound Statements
+#### Loops
+```
+while ... do ... ;
+
+for
+```
