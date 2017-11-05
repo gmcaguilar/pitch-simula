@@ -15,7 +15,7 @@
 - Norwegian computer scientist |
 - Born on August 27, 1926 Oslo, Norway |
 - University of Oslo (Master's in Mathematics) |
-- Acknowledged as the co-inventor of | *Object-Oriented Programming* 
+- Acknowledged as the co-inventor of Object-Oriented Programming |
 
 +++
 
