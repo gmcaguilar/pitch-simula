@@ -6,6 +6,18 @@
 
 ---
 
+### Kristen Nygaard
+
+![nygaard](assets/nygaard.jpg)
+
++++
+
+### Problem 
+
+
+
++++
+
 ### What is Simula?
 - Simulation programming language |
 - Simula I and Simula 67 |
