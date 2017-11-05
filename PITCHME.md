@@ -109,16 +109,21 @@
  - x := 1
 - Reference Assignment
  - x :- New ClassName
-- Procedure
-- Goto
+- Comments
+ - comment everything after reserved word is a comment;
 
 +++
 
 ### Structured/Compound Statements
-- Blocks
- - Begin ... End;
-- Conditional Statements
- - If ... Then ... ; If ... Then ... Else ... ;
+#### Blocks
+Begin
+  comment some code;
+End;
+
++++
+
+### Conditional Statements
+If ... Then ... ; If ... Then ... Else ... ;
  - Switch
 - Loops
   - While ... do ... ;
