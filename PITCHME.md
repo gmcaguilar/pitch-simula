@@ -116,9 +116,11 @@
 
 ### Structured/Compound Statements
 #### Blocks
+```
 Begin
   comment some code;
 End;
+```
 
 +++
 
