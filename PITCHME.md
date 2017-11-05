@@ -23,15 +23,19 @@
 
 ### Problem
 
-- 1950s, Describing how a system works was usually done using flow diagrams and a list of rules. |
-- 1957, Nygaard wanted a better way of doing this. |
+- 1950s: Describing how a system works was usually done using flow diagrams and a list of rules. |
+- 1957: Nygaard wanted a better way of doing this. |
 - Nygaard saw the potential with computer-aided simulations |
 - He wanted to standardize the procedures of simulating a system using a programming language. |
 - He needed someone with more programming skills than he had... | 
 
 +++
 
-### What is Simula
+### Ole-Johan Dahl
+
+![dahl](assets/dahl.jpg)
+
++++
 
 - Simulation programming language |
 - Simula I and Simula 67 |
