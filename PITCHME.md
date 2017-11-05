@@ -23,9 +23,9 @@
 
 ### Problem
 
-- 1950s: Describing how a system works was usually done using flow diagrams and a list of rules. |
+- 1950s, Describing how a system works was usually done using flow diagrams and a list of rules. |
 
-- 1957: Nygaard wanted a better way of doing this. |
+- 1957, Nygaard wanted a better way of doing this. |
 
 - Nygaard saw the potential with computer-aided simulations |
 
