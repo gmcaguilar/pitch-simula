@@ -14,7 +14,7 @@
 
 ![nygaard](assets/nygaard.jpg)
 
-+++ 
++++
 
 ### Kristen Nygaard
 
@@ -111,6 +111,8 @@
  - x :- New ClassName
 - Procedure
 - Goto
+
++++
 
 ### Structured/Compound Statements
 - Blocks
