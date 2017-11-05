@@ -76,7 +76,7 @@
 
 - Dahl and Nygaard eventually realized that they had a powerful simulation language that would be an excellent platform for a general-purpose language.
 
->> We can not just produce new special purpose languages the whole time, because they will not be widely implemented.  - Kristen Nygaard
+> We can not just produce new special purpose languages the whole time, because they will not be widely implemented.  - Kristen Nygaard
 
 +++
 
