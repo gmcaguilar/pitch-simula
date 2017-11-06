@@ -100,7 +100,7 @@
 ### SIMULA 67
 
 - First object-oriented language(classes, subcluasses, methods, instances)
-- General-purpose 
+- General-purpose
 - Near complete superset of ALGOL-60
 
 ---?image=assets/bg2.jpg&size=100% auto
@@ -139,19 +139,20 @@
 +++
 
 ### Value Assignment
-  - &lt;VariableName&gt; := &lt;Expression&gt;
-  - `i := 1;`
+- &lt;VariableName&gt; := &lt;Expression&gt;
+  - `i := 1; r := 0.5`
+  - `b := true; c := 'A';`
 
 +++
 
 ### Reference Assignment
-  - &lt;VariableName&gt; :- &lt;Expression&gt;
+- &lt;VariableName&gt; :- &lt;Expression&gt;
   - `Simula :- New ProgrammingLanguage;`
 
 +++
 
 ### Comments
-  - !{&lt;Character&gt;};
+- !{&lt;Character&gt;};
   - `! this is a comment;`
 
 +++
@@ -171,7 +172,7 @@ Operation | Symbol
 ----------|-------
 Real Division | /
 Whole Division | //
-Modulus | rem(dividend ,divisor)
+Modulus | rem(dividend, divisor)
 Exponentiation | **
 Concatination | &amp;
 
@@ -184,81 +185,105 @@ equality | <ul><li>=</li><li>==</li><li>eqv</li></ul>
 inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
 
 +++
-### Hello World
+
+### Block Statement
 ```
-Begin
-  OutText("Hello World!");
-  Outimage;
-End;
+begin {<declaration>}
+   {<statement>}
+end;
+```
+
+++++
+
+### If Statement
+```
+if <condition> {and|or <condition>}
+  then <statement>
+  [else <statement>];
 ```
 
 +++
 
+### GoTo Statement
+```
+LABEL: {<statement>}
+...
+goto LABEL;
+```
+
++++
+
+### While Statement
+```
+while <condition> do <statement>;
+```
+
++++
+
+### For Statement
+```
+for I := 1 step 1 until 100 do ...;
+for I := 100 step -1 until 1 do ...;
+for C := 'A', 'E', 'I', 'O', 'U', 'Y' do ...;
+```
++++
+
 ### Procedures
 ```
-Begin
-  ! Example procedure with two input parameters and one output parameter:
-  ! Displays a right indented text
-  Procedure RightText(T, N, FitsIn); Text T; Integer N;
-               Name FitsIn; Boolean FitsIn;
-  Begin
-    Integer I;
-    FitsIn := N &gt;= T.Length;
-    For i:=1 step 1 until N-T.Length do OutText(" ");
-    OutText(T)
-  End;
-
-  RightText("Short", 30); OutImage;
-  RightText("And the long one", 30);
-End;
+...
+PROCEDURE ADD (A, B, C);
+  NAME C; INTEGER A, B, C;
+  BEGIN
+    C := A + B;
+  END;
+...
+ADD (x, y, z);
+OUTINT (z);
 ```
 
 +++
 
 ### Functions
 ```
-Begin
-  Integer Procedure GCD(M, N); Integer M, N;
-  Begin
-     While M&lt;&gt;N do
-        If M&lt;N then N := N - M else M := M - N;
-     GCD := M
-  End;
-
-  Integer A, B;
-  OutText("Enter an integer number: "); OutImage;
-  A := InInt;
-  OutText("Enter an integer number: "); OutImage;
-  B := InInt;
-  OutText("Greatest Common Divisor of your numbers is ");
-  OutInt(GCD(A,B), 4);
-  OutImage;
-End;
+...
+INTEGER PROCEDURE SUM (A, B); INTEGER A, B;
+  SUM := A + B;
+...
+OUTINT (SUM (I, J));
 ```
-
 +++
 
 ### Classes
 ```
-! Class with two parameters;
-Class Rectangle (Width, Height); Real Width, Height;
-Begin
-  Real Area, Perimeter;  ! Attributes;
+CLASS POINT (X, Y); REAL X, Y;
+	 BEGIN
+	   REAL PROCEDURE DIST;  
+	     BEGIN DIST: = SQRT (X ** 2 + Y ** 2) END;
+	 END;
+REF (POINT) P;
 
-  Procedure Update;      ! Methods (Can be Virtual);
-    Begin
-      Area := Width * Height;
-      Perimeter := 2*(Width + Height)
-    End of Update;
+P :- NEW POINT (1.0, 3.0);
+OUTREAL (PX); OUTIMAGE;
+OUTREAL (PY); OUTIMAGE;
+OUTREAL (P.DIST); OUTIMAGE;
+```
 
-  Boolean Procedure IsSquare;
-    IsSquare := Width=Height;
++++
 
-    Update;                ! Life of rectangle started at creation;
-    OutText("Rectangle created: "); OutFix(Width,2,6);
-    OutFix(Height,2,6); OutImage
- End of Rectangle;
- ```
+### Class Inheritence
+```
+POINT CLASS SEGMENT (R, THETA); REAL R, THETA;
+	BEGIN
+	  PROCEDURE SHIFT (DX, DY); REAL DX, DY;
+	  BEGIN
+	    X: = X + DX; Y: = Y + DY;
+	  END;
+	END;
+
+REF (SEGMENT) S;
+S :- NEW SEGMENT (1, 3, 10, PI);
+S.SHIFT (-10, + 4);
+```
 
 ---?image=assets/bg2.jpg&size=100% auto
 
@@ -343,6 +368,3 @@ Circa 2000
 [http://progopedia.com/language/simula-67/]
 
 [http://www.simula67.info/]
-
-
-
