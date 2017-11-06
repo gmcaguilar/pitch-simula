@@ -193,7 +193,7 @@ begin {<declaration>}
 end;
 ```
 
-++++
++++
 
 ### If Statement
 ```
@@ -256,12 +256,12 @@ OUTINT (SUM (I, J));
 ### Classes
 ```
 CLASS POINT (X, Y); REAL X, Y;
-	 BEGIN
-	   REAL PROCEDURE DIST;  
-	     BEGIN DIST: = SQRT (X ** 2 + Y ** 2) END;
-	 END;
-REF (POINT) P;
+	BEGIN
+	  REAL PROCEDURE DIST;  
+	    BEGIN DIST: = SQRT (X ** 2 + Y ** 2) END;
+	END;
 
+REF (POINT) P;
 P :- NEW POINT (1.0, 3.0);
 OUTREAL (PX); OUTIMAGE;
 OUTREAL (PY); OUTIMAGE;
