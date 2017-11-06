@@ -100,6 +100,7 @@
 - Object Reference
   - `ref(ClassName) x;`
    - Equivalent to `ClassName x;` object declaration in Java
+   - The first part of `ClassName x = new ClassName();`
 - Text
  - "Simula"
 
@@ -110,40 +111,46 @@
   - `x := 1;`
 - Reference Assignment
   - `x :- New ClassName;`
+    - only after declaring an Object Reference `ref(ClassName) x;`
 - Comments
   - `! this is a comment`
+    - available in more recent implementations of SIMULA
+  - `comment this might also be a comment;`
+    - in older implementations
 
 +++
 
-### Structured/Compound Statements
-#### Blocks
+## Structured/Compound Statements
+
++++
+
+### Blocks
 ```
 Begin
-  ! code
+  ...
 End;
 ```
 
 +++
 
-### Structured/Compound Statements
-#### Conditional Statements
+### Conditional Statements
 ```
-If (condition) {and|or (condition)}
-  Then (statement)
-  [Else (statement)];
+If <condition> {and|or <condition>}
+  Then <statement>
+  [Else <statement>];
 ```
 #### Boolean Operators
 - For numeric and text values: =, <>, <=, >=, <, >
-- For references (objects and text): ==, =/= 
+- For references (objects and text): ==, =/=
 
 +++
 
-### Structured/Compound Statements
-#### Loops
+### Hello World
 ```
-While ... Do ... ;
-
-For
+Begin
+  OutText("Hello World!");
+  Outimage;
+End;
 ```
 
 +++
@@ -151,6 +158,65 @@ For
 ### Procedures
 ```
 Begin
+  ! Example procedure with two input parameters and one output parameter:
+  ! Displays a right indented text
+  Procedure RightText(T, N, FitsIn); Text T; Integer N;
+               Name FitsIn; Boolean FitsIn;
+  Begin
+    Integer I;
+    FitsIn := N >= T.Length;
+    For i:=1 step 1 until N-T.Length do OutText(" ");
+    OutText(T)
+  End;
 
+  RightText("Short", 30); OutImage;
+  RightText("And the long one", 30);
 End;
 ```
+
++++
+
+### Functions
+```
+Begin
+  Integer Procedure GCD(M, N); Integer M, N;
+  Begin
+     While M<>N do
+        If M<N then N := N - M else M := M - N;
+     GCD := M
+  End;
+
+  Integer A, B;
+  OutText("Enter an integer number: "); OutImage;
+  A := InInt;
+  OutText("Enter an integer number: "); OutImage;
+  B := InInt;
+  OutText("Greatest Common Divisor of your numbers is ");
+  OutInt(GCD(A,B), 4);
+  OutImage;
+End;
+```
+
++++
+
+### Classes
+```
+! Class with two parameters;
+Class Rectangle (Width, Height); Real Width, Height;
+Begin
+  Real Area, Perimeter;  ! Attributes;
+
+  Procedure Update;      ! Methods (Can be Virtual);
+    Begin
+      Area := Width * Height;
+      Perimeter := 2*(Width + Height)
+    End of Update;
+
+  Boolean Procedure IsSquare;
+    IsSquare := Width=Height;
+
+    Update;                ! Life of rectangle started at creation;
+    OutText("Rectangle created: "); OutFix(Width,2,6);
+    OutFix(Height,2,6); OutImage
+ End of Rectangle;
+ ```
