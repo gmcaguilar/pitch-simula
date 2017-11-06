@@ -1,22 +1,22 @@
 ---?image=assets/bg2.jpg&size=100% auto
 
-## Simula  
+### Simula  
 
 *Gabrielle Aguilar & Jason Bacani*
 
 ---?image=assets/bg2.jpg&size=100% auto
 
-## SIMULA I
+### SIMULA I
 
 +++
 
-### Kristen Nygaard
+#### Kristen Nygaard
 
 ![nygaard](assets/nygaard.jpg)
 
 +++
 
-### Kristen Nygaard
+#### Kristen Nygaard
 
 - Norwegian computer scientist |
 - Born on August 27, 1926 Oslo, Norway |
@@ -25,7 +25,7 @@
 
 +++
 
-### Problem
+#### Problem
 
 - 1950s: Describing how a system works was usually done using flow diagrams and a list of rules. |
 - 1957: Nygaard wanted a better way of doing this. |
@@ -35,13 +35,13 @@
 
 +++
 
-### Ole-Johan Dahl
+#### Ole-Johan Dahl
 
 ![dahl](assets/dahl.jpg)
 
 +++
 
-### Ole-Johan Dahl
+#### Ole-Johan Dahl
 
 - Norwegian computer scientist |
 - Born on October 12, 1931 Mandal, Norway |
@@ -50,7 +50,7 @@
 
 +++
 
-### Birth of SIMULA I
+#### Birth of SIMULA I
 
 - Nygaard and Dahl met at the Norwegian Defense Research Establishment (NDRE) |
 - January 1962: Dahl joined Nygaard in developing this computer language at the NCC (Norwegian Computing Center) in Oslo |
@@ -58,7 +58,7 @@
 
 +++
 
-### SIMULA I
+#### SIMULA I
 
 - Simulation language |
 - Used to program simulations on a computer |
@@ -68,11 +68,11 @@
 
 ---?image=assets/bg2.jpg&size=100% auto
 
-## SIMULA 67
+### SIMULA 67
 
 +++
 
-### Transition to Generality
+#### Transition to Generality
 
 - Dahl and Nygaard realized they could make a general-purpose language from Simula I
 
@@ -87,7 +87,7 @@
 
 +++
 
-### Ideas for Generality
+#### Ideas for Generality
 
 - 1963: Dahl and Nygaard started to come up with ways to implement generality
 
@@ -97,7 +97,7 @@
 
 +++
 
-### SIMULA 67
+#### SIMULA 67
 
 - First object-oriented language(classes, subcluasses, methods, instances)
 - General-purpose 
@@ -105,11 +105,11 @@
 
 ---?image=assets/bg2.jpg&size=100% auto
 
-## Simula Tutorial
+### Simula Tutorial
 
 +++
 
-### Value Types
+#### Value Types
 - Integer
 - Real
 - Boolean
@@ -117,13 +117,13 @@
 
 +++
 
-### Reference Types
+#### Reference Types
 - Reference (pointer)
 - Text (string)
 
 +++
 
-### Value-Type and Text Declarations
+#### Value-Type and Text Declarations
 - &lt;DataType&gt; &lt;VariableName&gt;;
   - `Integer i; Real r;`
   - `Boolean b; Character c;`
@@ -131,32 +131,32 @@
 
 +++
 
-### Object-Reference Declarations
+#### Object-Reference Declarations
 - Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
   - parentheses are terminal symbols
   - `Ref(ProgrammingLanguage) Simula;`
 
 +++
 
-### Value Assignment
+#### Value Assignment
   - &lt;VariableName&gt; := &lt;Expression&gt;
   - `i := 1;`
 
 +++
 
-### Reference Assignment
+#### Reference Assignment
   - &lt;VariableName&gt; :- &lt;Expression&gt;
   - `Simula :- New ProgrammingLanguage;`
 
 +++
 
-### Comments
+#### Comments
   - !{&lt;Character&gt;};
   - `! this is a comment;`
 
 +++
 
-### Input/Output
+#### Input/Output
 Data Type | Input |	Output
 ----------|-------|-------
 Integer	| I := inint; |	outint(I, 10);
@@ -166,7 +166,7 @@ Text | <ul><li>T := intext(20);</li><li>inimage;</li></ul> | <ul><li>outtext ("O
 
 +++
 
-### Notable Operators
+#### Notable Operators
 Operation | Symbol
 ----------|-------
 Real Division | /
@@ -177,14 +177,14 @@ Concatination | &amp;
 
 +++
 
-### Notable Operators (cont'd)
+#### Notable Operators (cont'd)
 Operation | Symbol
 ----------|-------
 equality | <ul><li>=</li><li>==</li><li>eqv</li></ul>
 inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
 
 +++
-### Hello World
+#### Hello World
 ```
 Begin
   OutText("Hello World!");
@@ -194,7 +194,7 @@ End;
 
 +++
 
-### Procedures
+#### Procedures
 ```
 Begin
   ! Example procedure with two input parameters and one output parameter:
@@ -215,7 +215,7 @@ End;
 
 +++
 
-### Functions
+#### Functions
 ```
 Begin
   Integer Procedure GCD(M, N); Integer M, N;
@@ -238,7 +238,7 @@ End;
 
 +++
 
-### Classes
+#### Classes
 ```
 ! Class with two parameters;
 Class Rectangle (Width, Height); Real Width, Height;
@@ -262,11 +262,11 @@ Begin
 
 ---?image=assets/bg2.jpg&size=100% auto
 
-## Legacy
+### Legacy
 
 +++
 
-### Influences
+#### Influences
 
 ![kay](assets/kay.jpg)
 
@@ -286,7 +286,7 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 +++
 
-### Recognition
+#### Recognition
 
 **IEEE John Von Neumann Medal**
 
@@ -304,7 +304,7 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 +++
 
-### Landmarks
+#### Landmarks
 
 **Simula Research Laboratory**
 
@@ -322,7 +322,7 @@ University of Oslo, Norway
 
 +++
 
-### Knighthood
+#### Knighthood
 
 **Commander of the Royal Norwegian Order of St. Olav**
 
@@ -332,11 +332,11 @@ Circa 2000
 
 ---?image=assets/bg2.jpg&size=100% auto
 
-## *End*
+### *End*
 
 +++
 
-## Sources
+#### Sources
 
 [http://campus.hesge.ch/daehne/2004-2005/langages/simula.htm]
 
