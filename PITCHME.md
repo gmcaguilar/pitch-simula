@@ -95,6 +95,10 @@
  - `Boolean B;`
 - Character
   - `Character C;`
+
++++
+
+### Basic Types and their Declarations(cont'd)
 - Reference (pointer)
   - `Ref(ClassName) x;`
     - Equivalent to `ClassName x;` object declaration in Java
