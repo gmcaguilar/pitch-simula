@@ -261,3 +261,30 @@ Begin
     OutFix(Height,2,6); OutImage
  End of Rectangle;
  ```
+
+---
+
+## Legacy
+
++++
+
+### Influences
+
+![kay](assets/kay.jpg)
+
+Simula 67 was one of the inspirations for Alan Kay in developing **Smalltalk**
+
++++
+
+![gos](assets/gos.jpg)
+
+James Gosling cites Simula as a major influence in the development of **Java**
+
++++
+
+![bjarne](assets/bjarne.jpg)
+
+Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for C++
+
++++
+
