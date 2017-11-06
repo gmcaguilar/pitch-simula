@@ -330,7 +330,7 @@ University of Oslo, Norway
 
 Circa 2000
 
---- 
+---?image=assets/bg2.jpg&size=100% auto
 
 ## *End*
 
