@@ -100,10 +100,10 @@
 
 ### Variable Declarations
 #### Value Types and Text
-- <Declaration> ::= <DataType> <VariableName>;
+- &lt;Declaration&gt; ::= &lt;DataType&gt; &lt;VariableName&gt;;
   - `Integer i; Boolean b; Text t;`
 #### Object References (object pointers)
-- <Declaration> ::= Ref(<ClassName>) <VariableName>;
+- &lt;Declaration&gt; ::= Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
   - parentheses are terminal symbols not representing grouping
   - `Ref(ProgrammingLanguage) Simula`
 
@@ -111,13 +111,13 @@
 
 ### Statements
 - Value Assignment
-  - <ValueAssignment> ::= <VariableName> := <Expression>
+  - &lt;ValueAssignment&gt; ::= &lt;VariableName&gt; := &lt;Expression&gt;
   - `i := 1;`
 - Reference Assignment
-  - <ReferenceAssignment> ::= <VariableName> :- <Expression>
+  - &lt;ReferenceAssignment&gt; ::= &lt;VariableName&gt; :- &lt;Expression&gt;
   - `Simula :- New ProgrammingLanguage;`
 - Comments*
-  - <Comment> ::= !{<Character>};
+  - &lt;Comment&gt; ::= !{&lt;Character&gt;};
   - `! this is a comment;`
 
 +++
@@ -155,7 +155,7 @@ Begin
                Name FitsIn; Boolean FitsIn;
   Begin
     Integer I;
-    FitsIn := N >= T.Length;
+    FitsIn := N &gt;= T.Length;
     For i:=1 step 1 until N-T.Length do OutText(" ");
     OutText(T)
   End;
@@ -172,8 +172,8 @@ End;
 Begin
   Integer Procedure GCD(M, N); Integer M, N;
   Begin
-     While M<>N do
-        If M<N then N := N - M else M := M - N;
+     While M&lt;&gt;N do
+        If M&lt;N then N := N - M else M := M - N;
      GCD := M
   End;
 
