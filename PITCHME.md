@@ -132,16 +132,16 @@ Text | <ul><li>T := intext(20);</li><li>inimage;</li></ul> | <ul><li>outtext ("O
 
 +++
 
-### Arithmetic Operators
+### Notable Operators
 Operation | Symbol
 ----------|-------
-Addition | +
-Subtraction | -
-Multiplication | *
 Real Division | /
 Whole Division | //
 Modulus | rem(&lt;dividend&gt;,&lt;divisor&gt;)
 Exponentiation | **
+Concatination | &amp;
+equality | <ul><li>=</li><li>==</li><li>eqv</li></ul>
+inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
 
 +++
 ### Hello World
