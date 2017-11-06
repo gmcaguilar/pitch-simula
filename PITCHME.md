@@ -137,7 +137,7 @@ Operation | Symbol
 ----------|-------
 Addition | +
 Subtraction | -
-Multiplocation | *
+Multiplication | *
 Real Division | /
 Whole Division | //
 Modulus | rem(&lt;dividend&gt;,&lt;divisor&gt;)
