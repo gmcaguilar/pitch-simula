@@ -282,7 +282,29 @@ James Gosling cites Simula as a major influence in the development of **Java**
 
 ![bjarne](assets/bjarne.jpg)
 
-Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for C++
+Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 +++
+
+### Recognition
+
+IEEE John Von Neumann Medal
+
+![medal](assets/medal.jpg)
+
+> For the introduction of the concepts underlying object-oriented programming through the design and implementation of SIMULA 67
+
++++
+
+ACM A.M. Turing Award
+
+![turing](assets/turing.jpg)
+
+> For ideas fundamental to the emergence of object oriented programming, through their design of the programming languages Simula I and Simula 67.
+
+
+
+
+
+
 
