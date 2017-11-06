@@ -86,22 +86,28 @@
 
 +++
 
-### Data Types
-#### Value Types
+### Value Types
 - Integer
 - Real
 - Boolean
 - Character
-#### Reference Types
+
++++
+
+### Reference Types
 - Reference (pointer)
 - Text (string)
 
 +++
 
-### Variable Declarations
-#### Value Types and Text
+### Value Type and Text Declarations
 - &lt;Declaration&gt; ::= &lt;DataType&gt; &lt;VariableName&gt;;
-  - `Integer i; Boolean b; Text t;`
+  - `Integer i; Real r;`
+  - `Boolean b; Character c;`
+  - `Text t;`
+
++++
+
 #### Object References (object pointers)
 - &lt;Declaration&gt; ::= Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
   - parentheses are terminal symbols not representing grouping
@@ -137,9 +143,15 @@ Operation | Symbol
 ----------|-------
 Real Division | /
 Whole Division | //
-Modulus | rem(&lt;dividend&gt;,&lt;divisor&gt;)
+Modulus | rem(dividend ,divisor)
 Exponentiation | **
 Concatination | &amp;
+
++++
+
+### Notable Operators (cont'd)
+Operation | Symbol
+----------|-------
 equality | <ul><li>=</li><li>==</li><li>eqv</li></ul>
 inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
 
