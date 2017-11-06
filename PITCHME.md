@@ -288,7 +288,7 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 #### Recognition
 
-**IEEE John Von Neumann Medal**
+IEEE John Von Neumann Medal
 
 ![medal](assets/medal.jpg)
 
@@ -296,7 +296,7 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 +++
 
-**ACM A.M. Turing Award**
+ACM A.M. Turing Award
 
 ![turing](assets/turing.jpg)
 
@@ -306,29 +306,26 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 #### Landmarks
 
-**Simula Research Laboratory**
+Simula Research Laboratory(Fornebu, Norway)
 
 ![lab](assets/lab.jpg)
 
-Fornebu, Norway
 
 +++
 
-**Ole-Johan Dahl's Hus**
+Ole-Johan Dahl's Hus(University of Oslo, Norway)
 
 ![house](assets/house.jpg)
-
-University of Oslo, Norway
 
 +++
 
 #### Knighthood
 
-**Commander of the Royal Norwegian Order of St. Olav**
+Commander of the Royal Norwegian Order of St. Olav (Circa 2000)
 
 ![knight](assets/knight.jpg)
 
-Circa 2000
+
 
 ---?image=assets/bg2.jpg&size=100% auto
 
