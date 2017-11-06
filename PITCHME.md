@@ -14,7 +14,7 @@
 
 ![nygaard](assets/nygaard.jpg)
 
-+++ 
++++
 
 ### Kristen Nygaard
 
@@ -113,36 +113,151 @@
 
 ### Value Types
 - Integer
-- Short Integer
 - Real
-- Long Real
 - Boolean
 - Character
 
 +++
 
 ### Reference Types
-- Object Reference
-  - Ref(Object Identifier)
-- Text
- - "Simula"
+- Reference (pointer)
+- Text (string)
 
 +++
 
-### Simple Statements
-- Assignment
- - x := 1
-- Reference Assignment
- - x :- New ClassName
-- Procedure
-- Goto
+### Value-Type and Text Declarations
+- &lt;DataType&gt; &lt;VariableName&gt;;
+  - `Integer i; Real r;`
+  - `Boolean b; Character c;`
+  - `Text t;`
 
-### Structured/Compound Statements
-- Blocks
- - Begin ... End;
-- Conditional Statements
- - If ... Then ... ; If ... Then ... Else ... ;
- - Switch
-- Loops
-  - While ... do ... ;
-  - For
++++
+
+### Object-Reference Declarations
+- Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
+  - parentheses are terminal symbols
+  - `Ref(ProgrammingLanguage) Simula;`
+
++++
+
+### Value Assignment
+  - &lt;VariableName&gt; := &lt;Expression&gt;
+  - `i := 1;`
+
++++
+
+### Reference Assignment
+  - &lt;VariableName&gt; :- &lt;Expression&gt;
+  - `Simula :- New ProgrammingLanguage;`
+
++++
+
+### Comments
+  - !{&lt;Character&gt;};
+  - `! this is a comment;`
+
++++
+
+### Input/Output
+Data Type | Input |	Output
+----------|-------|-------
+Integer	| I := inint; |	outint(I, 10);
+Real | X := inreal; | outreal(X, 2.10);
+Character	| C := inchar; | outchar(C);
+Text | <ul><li>T := intext(20);</li><li>inimage;</li></ul> | <ul><li>outtext ("OK!");</li><li>outimage;</li></ul>
+
++++
+
+### Notable Operators
+Operation | Symbol
+----------|-------
+Real Division | /
+Whole Division | //
+Modulus | rem(dividend ,divisor)
+Exponentiation | **
+Concatination | &amp;
+
++++
+
+### Notable Operators (cont'd)
+Operation | Symbol
+----------|-------
+equality | <ul><li>=</li><li>==</li><li>eqv</li></ul>
+inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
+
++++
+### Hello World
+```
+Begin
+  OutText("Hello World!");
+  Outimage;
+End;
+```
+
++++
+
+### Procedures
+```
+Begin
+  ! Example procedure with two input parameters and one output parameter:
+  ! Displays a right indented text
+  Procedure RightText(T, N, FitsIn); Text T; Integer N;
+               Name FitsIn; Boolean FitsIn;
+  Begin
+    Integer I;
+    FitsIn := N &gt;= T.Length;
+    For i:=1 step 1 until N-T.Length do OutText(" ");
+    OutText(T)
+  End;
+
+  RightText("Short", 30); OutImage;
+  RightText("And the long one", 30);
+End;
+```
+
++++
+
+### Functions
+```
+Begin
+  Integer Procedure GCD(M, N); Integer M, N;
+  Begin
+     While M&lt;&gt;N do
+        If M&lt;N then N := N - M else M := M - N;
+     GCD := M
+  End;
+
+  Integer A, B;
+  OutText("Enter an integer number: "); OutImage;
+  A := InInt;
+  OutText("Enter an integer number: "); OutImage;
+  B := InInt;
+  OutText("Greatest Common Divisor of your numbers is ");
+  OutInt(GCD(A,B), 4);
+  OutImage;
+End;
+```
+
++++
+
+### Classes
+```
+! Class with two parameters;
+Class Rectangle (Width, Height); Real Width, Height;
+Begin
+  Real Area, Perimeter;  ! Attributes;
+
+  Procedure Update;      ! Methods (Can be Virtual);
+    Begin
+      Area := Width * Height;
+      Perimeter := 2*(Width + Height)
+    End of Update;
+
+  Boolean Procedure IsSquare;
+    IsSquare := Width=Height;
+
+    Update;                ! Life of rectangle started at creation;
+    OutText("Rectangle created: "); OutFix(Width,2,6);
+    OutFix(Height,2,6); OutImage
+ End of Rectangle;
+ ```
