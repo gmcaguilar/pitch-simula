@@ -21,7 +21,7 @@
 - Norwegian computer scientist |
 - Born on August 27, 1926 Oslo, Norway |
 - University of Oslo (MS in Mathematics) |
-- Acknowledged as the co-inventor of Object-Oriented Programming |
+- Acknowledged as co-inventor of Object-Oriented Programming |
 
 +++
 
@@ -46,7 +46,7 @@
 - Norwegian computer scientist |
 - Born on October 12, 1931 Mandal, Norway |
 - University of Oslo (MS in Numerical Mathematics) |
-- Acknowledged as the co-inverntor of Object-Oriented Programming |
+- Acknowledged as co-inventor of Object-Oriented Programming |
 
 +++
 
@@ -74,9 +74,34 @@
 
 ### Transition to Generality
 
-- Dahl and Nygaard eventually realized that they had a powerful simulation language that would be an excellent platform for a general-purpose language.
+- Dahl and Nygaard realized they could make a general-purpose language from Simula I
 
 > We can not just produce new special purpose languages the whole time, because they will not be widely implemented.  - Kristen Nygaard
+
++++
+
+- Also, Dahl and Nygaard were influenced by the movement toward general-purpose languages at that time.
+(ALGOL, PL/I)
+
+> we have spent so much time with all these people working on general purpose languages, that I must admit we have to some extent fallen in love with the concept.. - Kristen Nygaard
+
++++
+
+### Ideas for Generality
+
+- 1963: Dahl and Nygaard started to come up with ways to implement generality
+
+- 1966: Concept of an object and a class were introduced by the two
+
+- 1967: Paper about these novel concepts was presented at the IFIP(Intl. Fed. for Information Processing) conference in Oslo. This was considered the first formal declaration of SIMULA 67.
+
++++
+
+### SIMULA 67
+
+- First object-oriented language(classes, subcluasses, methods, instances)
+- General-purpose 
+- Near complete superset of ALGOL-60
 
 +++
 
