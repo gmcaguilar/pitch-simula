@@ -100,16 +100,16 @@
 
 +++
 
-### Value Type and Text Declarations
-- &lt;Declaration&gt; ::= &lt;DataType&gt; &lt;VariableName&gt;;
+### Value-Type and Text Declarations
+- &lt;DataType&gt; &lt;VariableName&gt;;
   - `Integer i; Real r;`
   - `Boolean b; Character c;`
   - `Text t;`
 
 +++
 
-#### Object References (object pointers)
-- &lt;Declaration&gt; ::= Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
+### Object-Reference (object pointers) Declarations
+- Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
   - parentheses are terminal symbols not representing grouping
   - `Ref(ProgrammingLanguage) Simula;`
 
@@ -117,13 +117,13 @@
 
 ### Statements
 - Value Assignment
-  - &lt;ValueAssignment&gt; ::= &lt;VariableName&gt; := &lt;Expression&gt;
+  - &lt;VariableName&gt; := &lt;Expression&gt;
   - `i := 1;`
 - Reference Assignment
-  - &lt;ReferenceAssignment&gt; ::= &lt;VariableName&gt; :- &lt;Expression&gt;
+  - &lt;VariableName&gt; :- &lt;Expression&gt;
   - `Simula :- New ProgrammingLanguage;`
 - Comments*
-  - &lt;Comment&gt; ::= !{&lt;Character&gt;};
+  - !{&lt;Character&gt;};
   - `! this is a comment;`
 
 +++
