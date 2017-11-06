@@ -302,9 +302,47 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 > For ideas fundamental to the emergence of object oriented programming, through their design of the programming languages Simula I and Simula 67.
 
++++
 
+### Landmarks
 
+**Simula Research Laboratory**
 
+![lab](assets/lab.jpg)
+
+Fornebu, Norway
+
++++
+
+**Ole-Johan Dahl's Hus**
+
+![house](assets/house.jpg)
+
+University of Oslo, Norway
+
++++
+
+### Knighthood
+
+**Commander of the Royal Norwegian Order of St. Olav**
+
+![knight](assets/knight.jpg)
+
+Circa 2000
+
+--- 
+
+## *End*
+
++++
+
+## Sources
+
+[http://campus.hesge.ch/daehne/2004-2005/langages/simula.htm]
+
+[http://progopedia.com/language/simula-67/]
+
+[http://www.simula67.info/]
 
 
 
