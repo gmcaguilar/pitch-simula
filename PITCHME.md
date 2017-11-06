@@ -53,7 +53,7 @@
 ### Birth of SIMULA I
 
 - Nygaard and Dahl met at the Norwegian Defense Research Establishment (NDRE) |
-- January 1962: Dahl joined Nygaard in developing this computer language |
+- January 1962: Dahl joined Nygaard in developing this computer language at the NCC (Norwegian Computing Center) in Oslo |
 - May 1962: SIMULA I was born, a simulation language |
 
 +++
@@ -288,7 +288,7 @@ Bjarne Stroustrup also acknowledges Simula 67 as an inspiration for **C++**
 
 ### Recognition
 
-IEEE John Von Neumann Medal
+**IEEE John Von Neumann Medal**
 
 ![medal](assets/medal.jpg)
 
@@ -296,7 +296,7 @@ IEEE John Von Neumann Medal
 
 +++
 
-ACM A.M. Turing Award
+**ACM A.M. Turing Award**
 
 ![turing](assets/turing.jpg)
 
