@@ -86,52 +86,56 @@
 
 +++
 
-### Basic Types and their Declarations
+### Data Types
+#### Value Types
 - Integer
-  - `Integer I;`
 - Real
-  - `Real R;`
 - Boolean
- - `Boolean B;`
 - Character
-  - `Character C;`
-
-+++
-
-### Basic Types and their Declarations(cont'd)
+#### Reference Types
 - Reference (pointer)
-  - `Ref(ClassName) x;`
-    - Equivalent to `ClassName x;` object declaration in Java
-    - The first part of `ClassName x = new ClassName();`
 - Text (string)
-  - Text T;
 
 +++
 
-### Reference Types
-- Object Reference
-  - `ref(ClassName) x;`
-   - Equivalent to `ClassName x;` object declaration in Java
-   - The first part of `ClassName x = new ClassName();`
-- Text
- - "Simula"
+### Variable Declarations
+#### Value Types and Text
+- <Declaration> ::= <DataType> <VariableName>;
+  - `Integer i; Boolean b; Text t;`
+#### Object References (object pointers)
+- <Declaration> ::= Ref(<ClassName>) <VariableName>;
+  - parentheses are terminal symbols not representing grouping
+  - `Ref(ProgrammingLanguage) Simula`
 
 +++
 
-### Simple Statements
-- Assignment
-  - `x := 1;`
+### Statements
+- Value Assignment
+  - <ValueAssignment> ::= <VariableName> := <Expression>
+  - `i := 1;`
 - Reference Assignment
-  - `x :- New ClassName;`
-    - only after declaring an Object Reference `ref(ClassName) x;`
-- Comments
-  - `! this is a comment`
-    - available in more recent implementations of SIMULA
-  - `comment this might also be a comment;`
-    - in older implementations
+  - <ReferenceAssignment> ::= <VariableName> :- <Expression>
+  - `Simula :- New ProgrammingLanguage;`
+- Comments*
+  - <Comment> ::= !{<Character>};
+  - `! this is a comment;`
 
 +++
 
+### Input/Output
+Data Type | Input |	Output
+--------------------------
+Integer	| I: = inint; |	outint (I, 10);
+Real | X: = inreal; | outreal (X, 2.10);
+Character	| C: = inchar; | outchar (C);
+Text | T: = intext (20); | outtext ("OK!");
+
+Pascal | Simula
+---------------
+readln; | inimage;
+writeln; | outimage;
+
++++
 ### Hello World
 ```
 Begin
