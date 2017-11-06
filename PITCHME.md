@@ -108,21 +108,26 @@
 
 +++
 
-### Object-Reference (object pointers) Declarations
+### Object-Reference Declarations
 - Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
-  - parentheses are terminal symbols not representing grouping
+  - parentheses are terminal symbols
   - `Ref(ProgrammingLanguage) Simula;`
 
 +++
 
-### Statements
-- Value Assignment
+### Value Assignment
   - &lt;VariableName&gt; := &lt;Expression&gt;
   - `i := 1;`
-- Reference Assignment
+
++++
+
+### Reference Assignment
   - &lt;VariableName&gt; :- &lt;Expression&gt;
   - `Simula :- New ProgrammingLanguage;`
-- Comments*
+
++++
+
+### Comments
   - !{&lt;Character&gt;};
   - `! this is a comment;`
 
