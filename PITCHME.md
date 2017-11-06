@@ -124,14 +124,14 @@
 
 ### Input/Output
 Data Type | Input |	Output
---------------------------
+----------|-------|-------
 Integer	| I: = inint; |	outint (I, 10);
 Real | X: = inreal; | outreal (X, 2.10);
 Character	| C: = inchar; | outchar (C);
 Text | T: = intext (20); | outtext ("OK!");
 
 Pascal | Simula
----------------
+-------|-------
 readln; | inimage;
 writeln; | outimage;
 
