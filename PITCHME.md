@@ -105,7 +105,7 @@
 #### Object References (object pointers)
 - &lt;Declaration&gt; ::= Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
   - parentheses are terminal symbols not representing grouping
-  - `Ref(ProgrammingLanguage) Simula`
+  - `Ref(ProgrammingLanguage) Simula;`
 
 +++
 
@@ -134,6 +134,19 @@ Pascal | Simula
 -------|-------
 readln; | inimage;
 writeln; | outimage;
+
++++
+
+### Arithmetic Operators
+Operation | Symbol
+----------|-------
+Addition | +
+Subtraction | -
+Multiplocation | *
+Real Division | /
+Whole Division | //
+Modulus | rem(&lt;dividend&gt;,&lt;divisor&gt;)
+Exponentiation | **
 
 +++
 ### Hello World
