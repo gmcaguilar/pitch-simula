@@ -1,6 +1,6 @@
 ---?image=assets/bg2.jpg&size=100% auto
 
-### Simula  
+## Simula  
 
 *Gabrielle Aguilar & Jason Bacani*
 
@@ -102,8 +102,6 @@
 - First object-oriented language(classes, subcluasses, methods, instances)
 - General-purpose 
 - Near complete superset of ALGOL-60
-
-+++
 
 ---?image=assets/bg2.jpg&size=100% auto
 
@@ -262,7 +260,7 @@ Begin
  End of Rectangle;
  ```
 
----
+---?image=assets/bg2.jpg&size=100% auto
 
 ## Legacy
 
