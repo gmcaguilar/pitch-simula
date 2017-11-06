@@ -86,13 +86,21 @@
 
 +++
 
-### Value Types
+### Basic Types and their Declarations
 - Integer
-- Short Integer
+  - `Integer I;`
 - Real
-- Long Real
+  - `Real R;`
 - Boolean
+ - `Boolean B;`
 - Character
+  - `Character C;`
+- Reference (pointer)
+  - `Ref(ClassName) x;`
+    - Equivalent to `ClassName x;` object declaration in Java
+    - The first part of `ClassName x = new ClassName();`
+- Text (string)
+  - Text T;
 
 +++
 
@@ -117,31 +125,6 @@
     - available in more recent implementations of SIMULA
   - `comment this might also be a comment;`
     - in older implementations
-
-+++
-
-## Structured/Compound Statements
-
-+++
-
-### Blocks
-```
-Begin
-  ...
-End;
-```
-
-+++
-
-### Conditional Statements
-```
-If <condition> {and|or <condition>}
-  Then <statement>
-  [Else <statement>];
-```
-#### Boolean Operators
-- For numeric and text values: =, <>, <=, >=, <, >
-- For references (objects and text): ==, =/=
 
 +++
 
