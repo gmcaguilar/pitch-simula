@@ -283,7 +283,7 @@ OUTREAL (PY); OUTIMAGE;
 OUTREAL (P.DIST); OUTIMAGE;
 ```
 @[1](*Declare "Point" Class with X and Y coordinates*)
-@[2-5](*Class block*)
+@[2,5](*Class block*)
 @[3-4](*Returns the distance of the point from the origin*)
 @[7](*Declare a reference "P"*)
 @[8](*Create a new "Point" object and assign reference to "P"*)
