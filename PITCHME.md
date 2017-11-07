@@ -145,9 +145,9 @@ Ref(ProgrammingLanguage) Simula;
 
 #### Array Declaration
 - PASCAL:
-  - A,B : ARRAY [1..10,2..5] OF REAL;
+  - A : ARRAY [1..10] OF REAL;
 - SIMULA:
-  - REAL ARRAY A,B (1:10,2:5);
+  - REAL ARRAY A (1:10);
 
 +++
 
