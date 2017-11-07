@@ -230,7 +230,6 @@ for C := 'A', 'E', 'I', 'O', 'U', 'Y' do ...;
 
 #### Procedures
 ```
-
 ...
 PROCEDURE ADD (A, B, C);
   NAME C; INTEGER A, B, C;
@@ -240,13 +239,14 @@ PROCEDURE ADD (A, B, C);
 ...
 ADD (x, y, z);
 OUTINT (z);
+
 ```
 @[2](*declare procedure name*)
 @[3](*initialize variables*)
 @[5](*perform addition and assign results to `C`*)
 @[8](*call method and pass x,y,z*)
 @[9](*output result*)
-@[1]()
+@[10]()
 +++
 
 #### Functions
