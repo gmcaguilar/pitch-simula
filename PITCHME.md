@@ -174,7 +174,7 @@ Data Type | Input |	Output
 Integer	| I := inint; |	outint(I, 10);
 Real | X := inreal; | outreal(X, 2.10);
 Character	| C := inchar; | outchar(C);
-Text | <ul><li>T := intext(20);</li><li>inimage;</li></ul> | <ul><li>outtext ("OK!");</li><li>outimage;</li></ul>
+Text | <ul style="list-style: none;"><li>T := intext(20);</li><li>inimage;</li></ul> | <ul><li>outtext ("OK!");</li><li>outimage;</li></ul>
 
 +++
 
