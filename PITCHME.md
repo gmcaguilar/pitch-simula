@@ -190,10 +190,11 @@ Concatination | &amp;
 +++
 
 #### Notable Operators (cont'd)
-Operation | Symbol
-----------|-------
-equality | <ul style="list-style: none; padding: 0; margin: 0;"><li>=</li><li>==</li><li>eqv</li></ul>
-inequality | <ul style="list-style: none; padding: 0; margin: 0;"><li>&lt;&gt;</li><li>=/=</li></ul>
+<table style="text-align: center; vertical-align: top;">
+<tr><th>Operation</th><th>Symbol</th></tr>
+<tr><td>Equality</td><td><ul style="list-style: none; padding: 0; margin: 0;"><li>=</li><li>==</li><li>eqv</li></ul></td></tr>
+<tr><td>Inequality</td><td><ul style="list-style: none; padding: 0; margin: 0;"><li>&lt;&gt;</li><li>=/=</li></ul></td></tr>
+</table>
 
 +++
 
