@@ -140,7 +140,7 @@
 
 #### Value Assignment
 - &lt;VariableName&gt; := &lt;Expression&gt;
-  - `i := 1; r := 0.5`
+  - `i := 1; r := 0.5;`
   - `b := true; c := 'A';`
 
 +++
@@ -237,17 +237,15 @@ PROCEDURE ADD (A, B, C);
     C := A + B;
   END;
 ...
-ADD (x, y, z);
-OUTINT (z);
-
+ADD (1, 2, SUM);
+OUTINT (SUM); ! outputs 3;
 ```
-@[1-9]
-@[2](*procedure declaration*)
-@[3](*parameter declarations*)
-@[4-6](*start of procedure block*)
-@[5](*add `A` and `B` and assign result to `C`*)
-@[8](*call method and pass x,y,z*)
-@[9](*output result*)
+@[2](*Procedure declaration*)
+@[3](*Parameter declarations*)
+@[4-6](*Procedure block*)
+@[5](*Add `A` and `B` and assign result to `C`*)
+@[8](*Call ADD procedure with 1, 2, and SUM as arguments*)
+@[9](*Output SUM*)
 
 +++
 
