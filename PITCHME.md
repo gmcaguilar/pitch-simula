@@ -285,8 +285,10 @@ OUTREAL (P.DIST); OUTIMAGE;
 @[1](*Declare "Point" Class with X and Y coordinates*)
 @[2-5](*Class block*)
 @[3-4](*Returns the distance of the point from the origin*)
-@[6](*Declare a reference "P"*)
-@[7](**)
+@[7](*Declare a reference "P"*)
+@[8](*Create a new "Point" object and assign reference to "P"*)
+@[9-10](*P's "X" and "Y" fields are accessed through "PX" and "PY" respectively*)
+@[11](*P's "Dist" function accessed through "P.Dist"*)
 
 
 +++
@@ -389,3 +391,7 @@ Commander of the Royal Norwegian Order of St. Olav
 [http://progopedia.com/language/simula-67/]
 
 [http://www.simula67.info/]
+
+[http://www.iro.umontreal.ca/~vaucher/Simula/Simula.intro.html]
+
+[http://staff.um.edu.mt/jskl1/talk.html]
