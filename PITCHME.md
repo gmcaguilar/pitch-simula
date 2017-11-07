@@ -246,7 +246,7 @@ OUTINT (z);
 @[5](*perform addition and assign results to `C`*)
 @[8](*call method and pass x,y,z*)
 @[9](*output result*)
-@[10]()
+@[1-9]()
 +++
 
 #### Functions
@@ -273,6 +273,12 @@ OUTREAL (PX); OUTIMAGE;
 OUTREAL (PY); OUTIMAGE;
 OUTREAL (P.DIST); OUTIMAGE;
 ```
+@[2](*declare procedure name*)
+@[3](*initialize variables*)
+@[5](*perform addition and assign results to `C`*)
+@[8](*call method and pass x,y,z*)
+@[9](*output result*)
+@[1-9]()
 
 +++
 
@@ -367,7 +373,7 @@ Commander of the Royal Norwegian Order of St. Olav
 
 +++
 
-### Sources
+#### Sources
 
 [http://campus.hesge.ch/daehne/2004-2005/langages/simula.htm]
 
