@@ -34,12 +34,3 @@ img[alt$=-icon] {
 	height: 300px;
 	width: 300px;
 }
-
-ul {
-	list-style: none;
-}
-
-table {
-	text-align: center;
-	vertical-align: top;
-}
