@@ -99,7 +99,7 @@
 
 #### SIMULA 67
 
-- First object-oriented language(classes, subcluasses, methods, instances)
+- First object-oriented language(classes, subclasses, methods, instances)
 - General-purpose
 - Near complete superset of ALGOL-60
 
