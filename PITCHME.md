@@ -126,8 +126,10 @@
 #### Value-Type and Text Declarations
 - &lt;DataType&gt; &lt;VariableName&gt;;
 ```
-Integer i; Real r;
-Boolean b; Character c;
+Integer i;
+Real r;
+Boolean b;
+Character c;
 Text t;
 ```
 
@@ -142,8 +144,10 @@ Text t;
 #### Value Assignment
 - &lt;VariableName&gt; := &lt;Expression&gt;
 ```
-i := 1; r := 0.5;
-b := true; c := 'A';
+i := 1;
+r := 0.5;
+b := TRUE;
+c := 'A';
 ```
 
 +++
@@ -229,6 +233,9 @@ FOR I := 1 step 1 until 100 DO ...;
 FOR I := 100 step -1 until 1 DO ...;
 FOR C := 'A', 'E', 'I', 'O', 'U', 'Y' DO ...;
 ```
+@[1,2](*Initialization, incrementation, and stop condition*)
+@[3](*Iteration through a list*)
+
 +++
 
 #### Procedures
@@ -273,7 +280,7 @@ OUTINT (SUM (1, 2));
 CLASS POINT (X, Y); REAL X, Y;
 	BEGIN
 	  REAL PROCEDURE DIST;  
-	    BEGIN DIST: = SQRT (X ** 2 + Y ** 2) END;
+	    BEGIN DIST := SQRT (X ** 2 + Y ** 2) END;
 	END;
 
 REF (POINT) P;
@@ -298,15 +305,17 @@ OUTREAL (P.DIST); OUTIMAGE;
 POINT CLASS SEGMENT (R, THETA); REAL R, THETA;
 	BEGIN
 	  PROCEDURE SHIFT (DX, DY); REAL DX, DY;
-	  BEGIN
-	    X: = X + DX; Y: = Y + DY;
-	  END;
+  	  BEGIN
+  	    X := X + DX; Y := Y + DY;
+  	  END;
 	END;
 
 REF (SEGMENT) S;
 S :- NEW SEGMENT (1, 3, 10, PI);
 S.SHIFT (-10, + 4);
 ```
+@[1-7](*Segments are defined by a point, a length "R" and an angle "THETA"*)
+@[1,10](*Creating a new "Segment" object requires arguments for creating a new "Point"*)
 
 ---?image=assets/bg2.jpg&size=100% auto
 

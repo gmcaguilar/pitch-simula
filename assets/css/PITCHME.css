@@ -7,7 +7,7 @@
 	color: #f04e29;
 }
 .reveal strong, .reveal b {
-	color:#bbfffc; 
+	color:#bbfffc;
 }
 
 .reveal .slides {
@@ -30,7 +30,16 @@ dbot {
 	color: #ad0a57;
 }
 
-img[alt$=-icon] { 
+img[alt$=-icon] {
 	height: 300px;
 	width: 300px;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	text-align: center;
+	vertical-align: top;
 }
