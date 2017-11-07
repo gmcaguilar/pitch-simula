@@ -240,7 +240,11 @@ PROCEDURE ADD (A, B, C);
 ADD (x, y, z);
 OUTINT (z);
 ```
-
+@[3](declare procedure name)
+@[4](initialize variables)
+@[6](perform addition and assign results to `C`)
+@[9](call method and pass x,y,z)
+@[10](output result)
 +++
 
 #### Functions
@@ -331,14 +335,16 @@ ACM A.M. Turing Award
 
 #### Landmarks
 
-Simula Research Laboratory(Fornebu, Norway)
+Simula Research Laboratory  
+(Fornebu, Norway)
 
 ![lab](assets/lab.jpg)
 
 
 +++
 
-Ole-Johan Dahl's Hus(University of Oslo, Norway)
+Ole-Johan Dahl's Hus  
+(University of Oslo, Norway)
 
 ![house](assets/house.jpg)
 
@@ -346,7 +352,8 @@ Ole-Johan Dahl's Hus(University of Oslo, Norway)
 
 #### Knighthood
 
-Commander of the Royal Norwegian Order of St. Olav (Circa 2000)
+Commander of the Royal Norwegian Order of St. Olav  
+(Circa 2000)
 
 ![knight](assets/knight.jpg)
 

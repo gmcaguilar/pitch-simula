@@ -1,10 +1,10 @@
 .reveal .slides section h1,
 .reveal .slides section h2,
 .reveal .slides section h3 {
-	color: #f04e29;
+	color: #bbfffc;
 }
 .reveal .slides section h4 {
-	color: #bbfffc;
+	color: #f04e29;
 }
 .reveal strong, .reveal b {
 	color:#bbfffc; 
