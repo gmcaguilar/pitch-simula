@@ -10,9 +10,9 @@
 	color:#bbfffc; 
 }
 
-@font-face {
-  font-family: SIMPLIFICA; 
-  src: url(assets/SIMPLIFICA.ttf); 
+.reveal .slides {
+    text-align: center;
+    font-family: SIMPLIFICA; 
 }
 
 em2 {
