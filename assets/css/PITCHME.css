@@ -10,6 +10,11 @@
 	color:#bbfffc; 
 }
 
+@font-face {
+  font-family: SIMPLIFICA; 
+  src: url(assets/SIMPLIFICA.ttf); 
+}
+
 em2 {
 	color: #f04e29;
 }
