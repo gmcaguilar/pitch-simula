@@ -137,7 +137,9 @@ Text t;
 
 #### Object-Reference Declarations
 - Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
-`Ref(ProgrammingLanguage) Simula;`
+```
+Ref(ProgrammingLanguage) Simula;
+```
 
 +++
 
@@ -154,13 +156,17 @@ c := 'A';
 
 #### Reference Assignment
 - &lt;VariableName&gt; :- New &lt;ClassName&gt;
-`Simula :- New ProgrammingLanguage;`
+```
+Simula :- New ProgrammingLanguage;
+```
 
 +++
 
 #### Comments
 - !{&lt;Character&gt;};
-`! this is a comment;`
+```
+! this is a comment;
+```
 
 +++
 
