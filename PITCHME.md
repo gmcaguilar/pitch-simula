@@ -241,12 +241,14 @@ ADD (x, y, z);
 OUTINT (z);
 
 ```
-@[2](*declare procedure name*)
-@[3](*initialize variables*)
-@[5](*perform addition and assign results to `C`*)
+@[1-9]
+@[2](*procedure declaration*)
+@[3](*parameter declarations*)
+@[4-6](*start of procedure block*)
+@[5](*add `A` and `B` and assign result to `C`*)
 @[8](*call method and pass x,y,z*)
 @[9](*output result*)
-@[1-9]()
+
 +++
 
 #### Functions
