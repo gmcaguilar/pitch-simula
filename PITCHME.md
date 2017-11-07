@@ -125,35 +125,38 @@
 
 #### Value-Type and Text Declarations
 - &lt;DataType&gt; &lt;VariableName&gt;;
-  - `Integer i; Real r;`
-  - `Boolean b; Character c;`
-  - `Text t;`
+```
+Integer i; Real r;
+Boolean b; Character c;
+Text t;
+```
 
 +++
 
 #### Object-Reference Declarations
 - Ref(&lt;ClassName&gt;) &lt;VariableName&gt;;
-  - parentheses are terminal symbols
-  - `Ref(ProgrammingLanguage) Simula;`
+`Ref(ProgrammingLanguage) Simula;`
 
 +++
 
 #### Value Assignment
 - &lt;VariableName&gt; := &lt;Expression&gt;
-  - `i := 1; r := 0.5;`
-  - `b := true; c := 'A';`
+```
+i := 1; r := 0.5;
+b := true; c := 'A';
+```
 
 +++
 
 #### Reference Assignment
-- &lt;VariableName&gt; :- &lt;Expression&gt;
-  - `Simula :- New ProgrammingLanguage;`
+- &lt;VariableName&gt; :- New &lt;ClassName&gt;
+`Simula :- New ProgrammingLanguage;`
 
 +++
 
 #### Comments
 - !{&lt;Character&gt;};
-  - `! this is a comment;`
+`! this is a comment;`
 
 +++
 
@@ -188,43 +191,43 @@ inequality | <ul><li>&lt;&gt;</li><li>=/=</li></ul>
 
 #### Block Statement
 ```
-begin {<declaration>}
-   {<statement>}
-end;
+BEGIN {<DECLARATION>}
+  {<STATEMENT>}
+END;
 ```
 
 +++
 
 #### If Statement
 ```
-if <condition> {and|or <condition>}
-  then <statement>
-  [else <statement>];
+IF <CONDITION> {AND|OR <CONDITION>}
+  THEN <STATEMENT>
+  [ELSE <STATEMENT>];
 ```
 
 +++
 
 #### GoTo Statement
 ```
-LABEL: {<statement>}
+LABEL: {<STATEMENT>}
 ...
-goto LABEL;
+GOTO LABEL;
 ```
 
 +++
 
 #### While Statement
 ```
-while <condition> do <statement>;
+WHILE <CONDITION> DO <STATEMENT>;
 ```
 
 +++
 
 #### For Statement
 ```
-for I := 1 step 1 until 100 do ...;
-for I := 100 step -1 until 1 do ...;
-for C := 'A', 'E', 'I', 'O', 'U', 'Y' do ...;
+FOR I := 1 step 1 until 100 DO ...;
+FOR I := 100 step -1 until 1 DO ...;
+FOR C := 'A', 'E', 'I', 'O', 'U', 'Y' DO ...;
 ```
 +++
 
@@ -238,25 +241,31 @@ PROCEDURE ADD (A, B, C);
   END;
 ...
 ADD (1, 2, SUM);
-OUTINT (SUM); ! outputs 3;
+OUTINT (SUM);
 ```
-@[2](*Procedure declaration*)
+@[2](*Declare the "ADD" procedure*)
 @[3](*Parameter declarations*)
 @[4-6](*Procedure block*)
-@[5](*Add `A` and `B` and assign result to `C`*)
-@[8](*Call ADD procedure with 1, 2, and SUM as arguments*)
-@[9](*Output SUM*)
+@[5](*Add "A" and "B" and assign result to "C"*)
+@[8](*Add 1 and 2 and store the result in "SUM"*)
+@[9](*Outputs 3*)
 
 +++
 
 #### Functions
 ```
 ...
-INTEGER PROCEDURE SUM (A, B); INTEGER A, B;
+INTEGER PROCEDURE SUM (A, B);
+  INTEGER A, B;
   SUM := A + B;
 ...
-OUTINT (SUM (I, J));
+OUTINT (SUM (1, 2));
 ```
+@[2](*Declare "SUM" function*)
+@[3](*Parameter declarations*)
+@[4](*SUM is automatically returned*)
+@[6](*Outputs 3*)
+
 +++
 
 #### Classes
@@ -273,12 +282,12 @@ OUTREAL (PX); OUTIMAGE;
 OUTREAL (PY); OUTIMAGE;
 OUTREAL (P.DIST); OUTIMAGE;
 ```
-@[2](*declare procedure name*)
-@[3](*initialize variables*)
-@[5](*perform addition and assign results to `C`*)
-@[8](*call method and pass x,y,z*)
-@[9](*output result*)
-@[1-9]()
+@[1](*Declare "Point" Class with X and Y coordinates*)
+@[2-5](*Class block*)
+@[3-4](*Returns the distance of the point from the origin*)
+@[6](*Declare a reference "P"*)
+@[7](**)
+
 
 +++
 
