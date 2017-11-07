@@ -164,9 +164,7 @@ Simula :- New ProgrammingLanguage;
 
 #### Comments
 - !{&lt;Character&gt;};
-```
-! this is a comment;
-```
+  - `! this is a comment;`
 
 +++
 
