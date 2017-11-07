@@ -143,6 +143,14 @@ Ref(ProgrammingLanguage) Simula;
 
 +++
 
+#### Array Declaration
+- PASCAL:
+  - A,B : ARRAY [1..10,2..5] OF REAL;
+- SIMULA:
+  - REAL ARRAY A,B (1:10,2:5);
+
++++
+
 #### Value Assignment
 - &lt;VariableName&gt; := &lt;Expression&gt;
 ```
